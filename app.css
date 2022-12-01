@@ -10,6 +10,10 @@ body {
   margin: auto;
 }
 
+h1 {
+  border-bottom: 7px double black;
+}
+
 table {
 }
 
@@ -33,6 +37,7 @@ td:empty {
   margin-top: 50px;
   border: 3px solid black;
   font-weight: bold;
+  width: 100px;
 }
 
 .main-key {
@@ -86,6 +91,7 @@ td:empty {
   margin-top: 10px;
   text-align: center;
   line-height: 1.5rem;
+  font-size: larger;
 }
 
 /* input-row {
