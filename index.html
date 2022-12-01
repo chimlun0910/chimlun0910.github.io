@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="app.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Presentation Crossword Game</title>
+  </head>
+  <body>
+    <h1>Minigame Linh Trung</h1>
+    <div class="grid">
+      <table id="crossword">
+        <tr id="row-1">
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>T</td>
+          <td>U</td>
+          <td class="main-key">D</td>
+          <td>O</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr id="row-2">
+          <td></td>
+          <td></td>
+          <td>P</td>
+          <td>H</td>
+          <td>A</td>
+          <td>O</td>
+          <td>D</td>
+          <td class="main-key">A</td>
+          <td>I</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr id="row-3">
+          <td>V</td>
+          <td>O</td>
+          <td>N</td>
+          <td>G</td>
+          <td>U</td>
+          <td>Y</td>
+          <td>E</td>
+          <td class="main-key">N</td>
+          <td>G</td>
+          <td>I</td>
+          <td>A</td>
+          <td>P</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr id="row-4">
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>T</td>
+          <td>H</td>
+          <td>O</td>
+          <td>N</td>
+          <td class="main-key">G</td>
+          <td>N</td>
+          <td>H</td>
+          <td>A</td>
+          <td>T</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr id="row-5">
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>L</td>
+          <td>U</td>
+          <td>N</td>
+          <td>G</td>
+          <td class="main-key">L</td>
+          <td>A</td>
+          <td>Y</td>
+          <td>C</td>
+          <td>H</td>
+          <td>A</td>
+          <td>N</td>
+          <td>D</td>
+          <td>O</td>
+          <td>N</td>
+          <td>G</td>
+        </tr>
+        <tr id="row-6">
+          <td></td>
+          <td></td>
+          <td>T</td>
+          <td>H</td>
+          <td>E</td>
+          <td>T</td>
+          <td>R</td>
+          <td class="main-key">A</td>
+          <td>N</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr id="row-7">
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>G</td>
+          <td>I</td>
+          <td class="main-key">O</td>
+          <td>N</td>
+          <td>E</td>
+          <td>V</td>
+          <td>O</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr id="row-8">
+          <td></td>
+          <td></td>
+          <td>T</td>
+          <td>U</td>
+          <td>S</td>
+          <td>A</td>
+          <td>N</td>
+          <td class="main-key">D</td>
+          <td>A</td>
+          <td>N</td>
+          <td>T</td>
+          <td>O</td>
+          <td>C</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr id="row-9">
+          <td></td>
+          <td></td>
+          <td>K</td>
+          <td>I</td>
+          <td>N</td>
+          <td>H</td>
+          <td>H</td>
+          <td class="main-key">O</td>
+          <td>A</td>
+          <td>N</td>
+          <td>G</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr id="row-10">
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>D</td>
+          <td>O</td>
+          <td>A</td>
+          <td class="main-key">N</td>
+          <td>K</td>
+          <td>E</td>
+          <td>T</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr id="row-11">
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>K</td>
+          <td>H</td>
+          <td>A</td>
+          <td>N</td>
+          <td class="main-key">G</td>
+          <td>C</td>
+          <td>H</td>
+          <td>I</td>
+          <td>E</td>
+          <td>N</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+    <form action="#" class="input" method="get">
+      <label for="input-row" class="input-label">Nhập vào số dòng: </label>
+      <input
+        type="number"
+        id="input-row"
+        placeholder="Ex: 1, 2, ..."
+        class="input-rownum"
+        max="11"
+      />
+      <button type="button" onclick="getValue()" class="get-question">
+        Try it
+      </button>
+      <button type="button" class="show-answer">Show Answer</button>
+    </form>
+    <section class="question">
+      <div id="question-box" class="question-1">
+        Rạng sáng ngày 23/9/1945, quân và dân Nam Bộ đứng lên kháng chiến chống
+        thực dân Pháp trở lại xâm lược lần thứ hai với khí phách anh hùng, với
+        quyết tâm “thà chết __ __ còn hơn sống nô lệ”. (4 chữ)
+      </div>
+      <div id="question-box" class="question-2">
+        Đến đầu năm 1954, Điện Biên Phủ là một tập đoàn cứ điểm mạnh nhất Đông
+        Dương, một "____ ___ khổng lồ không thể công phá", được giới quân sự,
+        chính trị Pháp - Mỹ đánh giá là "một cỗ máy để nghiền nát Việt Minh". (7
+        chữ)
+      </div>
+      <div id="question-box" class="question-3">
+        Cuộc họp của bộ chính trị ngày 6/12/1953 đã quyết định mở chiến dịch
+        Điện Biên Phủ và giao Đồng chí __ ______ ____ - Bộ trưởng Bộ Quốc phòng,
+        Tổng Tư lệnh quân đội trực tiếp làm Tư lệnh kiêm Bí thư Đảng ủy chiến
+        dịch. (12 chữ)
+      </div>
+      <div id="question-box" class="question-4">
+        Báo cáo chính trị do Chủ tịch HCM trình bày đã tổng kết phong trào cách
+        mạng thế giới và cách mạng VN trong nửa đầu thế kỷ XX, vạch rõ nhiệm vụ
+        chủ yếu trước mắt là tiêu diệt thực dân Pháp và đánh bại bọn can thiệp
+        Mỹ, giành _____ ____ độc lập hoàn toàn, bảo vệ hòa bình thế giới. (9
+        chữ)
+      </div>
+      <div id="question-box" class="question-5">
+        Ý chí ngoan cường, hào khí Nam bộ kháng chiến, sự chung sức, đồng lòng
+        vượt qua khó khăn, gian khổ, hy sinh tiếp tục được đồng bào Nam bộ phát
+        huy suốt 9 năm kháng chiến chống thực dân Pháp để cùng cả nước làm nên
+        chiến thắng Điên Biên Phủ, “____ ___ năm châu, ____ ____ địa cầu”. (7
+        chữ, 8 chữ)
+      </div>
+      <div id="question-box" class="question-6">
+        Cuộc kháng chiến của đồng bào Nam bộ đã để lại những bài học có ý nghĩa
+        cả về lý luận và thực tiễn sâu sắc, một trong số đó là: “Xây dựng ___
+        ____ lòng dân”. (7 chữ)
+      </div>
+      <div id="question-box" class="question-7">
+        Ngày 20-7-1954, Hiệp định _______ về chấm dứt chiến tranh, lập lại hòa
+        bình ở Đông Dương được ký kết. (7 chữ)
+      </div>
+      <div id="question-box" class="question-8">
+        Động lực của cách mạng Việt Nam gồm bốn giai cấp: Công nhân, nông dân,
+        tiểu tư sản và __ ___ ___ ___, ngoài ra còn có những thân sĩ (thân hào,
+        địa chủ) yêu nước và tiến bộ. (11 chữ)
+      </div>
+      <div id="question-box" class="question-9">
+        Chiến thắng vĩ đại ở Điện Biên Phủ là thắng lợi của ý chí và khát vọng
+        độc lập, tự do của nhân dân Việt Nam mà nòng cốt là lực lượng quân đội
+        nhân dân anh hùng. Với nước Pháp, "Điện Biên Phủ thất thủ gây nỗi ____
+        _____ khủng khiếp". (9 chữ)
+      </div>
+      <div id="question-box" class="question-10">
+        Tại Kỳ họp thứ hai, Quốc hội đã biểu quyết thông qua Hiến pháp đầu tiên
+        của nước Việt Nam Dân chủ Cộng hòa, dựa trên những nguyên tắc: “____ ___
+        toàn dân, không phân biệt giống nòi, gái trai, giai cấp, tôn giáo. Bảo
+        đảm các quyền tự do dân chủ. Thực hiện chính quyền mạnh mẽ và sáng suốt
+        của nhân dân” (7 chữ)
+      </div>
+      <div id="question-box" class="question-11">
+        Rạng sáng ngày 20/12/1946, Chủ tịch Hồ Chí Minh ra “Lời kêu gọi toàn
+        quốc _____ _____” trên Đài tiếng nói Việt Nam. (10 chữ)
+      </div>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
