@@ -26,6 +26,7 @@ function getValue() {
     case 3:
       ques[2].style.color = "black";
       ques[2].style.border = "3px solid black";
+
       break;
     case 4:
       ques[3].style.color = "black";
