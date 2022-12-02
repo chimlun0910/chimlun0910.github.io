@@ -19,8 +19,8 @@ table {
 
 td {
   border: 2px solid black;
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
   text-align: center;
   color: transparent;
 }
@@ -77,6 +77,12 @@ td:empty {
 }
 
 .show-answer {
+  font-weight: bold;
+  border: 3px solid black;
+}
+
+.show-main-answer {
+  margin-left: 200px;
   font-weight: bold;
   border: 3px solid black;
 }

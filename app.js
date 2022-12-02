@@ -64,6 +64,14 @@ function getValue() {
   }
 }
 
+const mainKey = document.querySelectorAll(".main-key");
+const showMainAnswer = document.querySelector(".show-main-answer");
+showMainAnswer.addEventListener("click", () => {
+  mainKey.forEach((ele) => {
+    ele.classList.toggle("show");
+  });
+});
+
 var tables = document.getElementsByTagName("table");
 var table = tables[tables.length - 1];
 var rows = table.rows;
